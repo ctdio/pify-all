@@ -1,0 +1,34 @@
+{
+  "name": "pify-all",
+  "version": "0.0.1",
+  "description": "promisifyAll but with pify",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlieduong94/pify-all.git"
+  },
+  "keywords": [
+    "promisify"
+  ],
+  "author": "Charlie Duong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlieduong94/pify-all/issues"
+  },
+  "homepage": "https://github.com/charlieduong94/pify-all#readme",
+  "dependencies": {
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1"
+  }
+}
