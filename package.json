@@ -1,6 +1,6 @@
 {
   "name": "pify-all",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "promisifyAll but with pify",
   "main": "index.js",
   "directories": {
